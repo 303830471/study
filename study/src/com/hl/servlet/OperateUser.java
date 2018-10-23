@@ -33,7 +33,6 @@ public class OperateUser extends HttpServlet {
      */
     public OperateUser() {
         super();
-        // TODO Auto-generated constructor stub
     }
 
 	/**
