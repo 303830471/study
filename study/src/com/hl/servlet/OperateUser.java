@@ -40,7 +40,7 @@ public class OperateUser extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		System.out.println("type=---------------------------- "+request.getServletContext().getEffectiveMajorVersion() );
+		System.out.println("type=---------------- "+request.getServletContext().getEffectiveMajorVersion() );
 		response.setContentType("application/json");
 		response.setCharacterEncoding("UTF-8");
 		PrintWriter out=response.getWriter();
